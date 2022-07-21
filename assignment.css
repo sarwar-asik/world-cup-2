@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+.sections{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+background-color: black;
+border-radius: 20px;
+color:white;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: relative;
+height: 90vh;
+}
+
+.text-button{
+    width:50% ;
+    margin-left:5%;
+    /* display: flex; */
+    flex-direction:column;
+
+}
+.text-button h1{
+    font-size: 50px;
+}
+.text-button p{
+    font-size: 18px;
+}
+.head-button{
+    color:white ;
+    background-color: red;
+    border-radius: 5px;;
+    font-size: 1rem;
+    padding: 8px 20px;
+
+}
+
+
+.banner img{
+    width:100%;
+} 
+
+
+aside{
+    background-color: black;
+    height: 240px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:5px;
+    justify-content: center;
+    
+}
+.button3{
+    background-color: white;
+    border:1px solid;
+    border-radius: 5px;
+    height: 35px;
+    width:230px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 5px 0px;
+    margin:10px;
+    text-align: center;
+    margin-top: 17px;
+    ;
+ 
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.red-btn{
+    color:aliceblue;
+    background-color: red;
+}
+/* ----------------
+close button
+------------------- */
+
+.blogs{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    width: 70%;
+    gap: 30px;
+
+}
+
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} 
+
+.img-blog{
+    width: 100%;
+}
+.blog-btn{
+    width:150px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 100;
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.fa-message{
+    margin-left: 3rem;
+}
+.flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+footer .top{
+    padding: 20px 0px;
+}
+footer .top h1{
+    text-align: center;
+    font-size: 40px;
+}
+.devider{
+    width: 70%;
+    height: 1px;
+    background-color: rgb(161, 158, 158);
+    margin: 0 auto;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin:  0 auto;
+    padding: 40px 0px;
+    color: whitesmoke;
+}
+.view-all{
+    padding: 10px 40px;
+   
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+
